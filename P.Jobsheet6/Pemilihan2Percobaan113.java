@@ -6,7 +6,8 @@ public class Pemilihan2Percobaan113 {
         System.out.println("Masukkan tahun: ");
         int tahun = input13.nextInt();
         if ((tahun % 4) == 0) {
-            if ((tahun % 100) != 0 )  {
+            if (tahun % 100 == 0 )  {
+                
                 if (tahun % 400 == 0) {
                     System.out.println("Tahun kabisat");
                 } else {
