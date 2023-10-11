@@ -21,6 +21,12 @@ public class DoWhileCuti13 {
                     System.out.println("Sisa jatah cuti anda tidak mencukupi");
                     
                 }
+            } else if(konfirmasi.equalsIgnoreCase("t")){
+                System.out.println("Terimakasih telah menggunakan sistem cuti");
+                break;
+            } else {
+                System.out.println("Maaf huruf yang anda masukkan tidak bisa diakses");
+                break;
             }
         }while (jatahCuti > 0);
     }
