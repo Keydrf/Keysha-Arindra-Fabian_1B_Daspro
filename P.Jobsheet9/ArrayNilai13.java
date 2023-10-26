@@ -8,7 +8,7 @@ public class ArrayNilai13 {
             nilaiAkhir[i] = input.nextInt();        
         }
         for (int i = 0; i < 10; i++){
-            if (nilaiAkhir[i]>= 75){
+            if (nilaiAkhir[i] > 70){
                 System.out.println("Mahasiswa ke-"+i+" lulus!");
             } else{
                 System.out.println("Mahasiswa ke-"+i+" tidak lulus!");
