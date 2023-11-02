@@ -1,4 +1,3 @@
-import java.util.Scanner;
 public class Bioskop13 {
    public static void main(String[] args){
     String[][] penonton = new String [4][2];
@@ -26,9 +25,9 @@ public class Bioskop13 {
         System.out.println("Panjang baris: " +barisPenonton.length);
     }
 
-    System.out.println("Penonton pada baris ke-3: ");
-    for(String i : penonton[2]){
-       System.out.println(penonton[2][i]); 
+    // System.out.println("Penonton pada baris ke-3: ");
+    for(int i = 0; i < penonton.length;i++){
+       System.out.println("Penonton pada baris ke-"+(i+1)+": "+ String.join(", ", penonton[i])); 
     }
    } 
 }
