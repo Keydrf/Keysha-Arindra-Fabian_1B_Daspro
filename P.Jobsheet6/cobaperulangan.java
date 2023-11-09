@@ -33,7 +33,7 @@ public class cobaperulangan {
                 
                     default:
                         break;
-                }while{}
+                }
             }
         }
     }
